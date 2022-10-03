@@ -1,0 +1,85 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    border-radius: 50px;
+}
+
+@keyframes titulo  {
+    from {
+        margin-left: 100%;
+        width: 300%;
+    }
+
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
+
+    to {
+        margin-left: 100%;
+        width: 50%;
+    }
+}
+
+h1 {
+    font-size: clamp(1rem, 6vw, 70rem); 
+}
+
+p {
+    font-size: clamp(1rem, 2.5vw, 2rem); 
+}
+
+#cuerpo {
+    text-align: center;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+#encabezado {
+    padding: px;
+    margin: 10px;
+    text-align: center;
+    animation: titulo 3s ;
+    border-radius: 30px;
+}
+
+#titulo  {
+    background-image: url("https://ichef.bbci.co.uk/news/640/cpsprodpb/5D5B/production/_99199832_edificios.jpg");
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 30px;
+    border-radius: 30px;
+}
+
+#titulo h1 {
+    border-radius: 30px;
+    
+}
+
+#menu {
+    background-color: antiquewhite;
+    padding: 5px;
+    animation: titulo 3s ;
+    margin: 5px 5px 5px auto;
+    border-radius: 30px;
+}
+
+#menu li{
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 30px;
+    animation: titulo 3s ;
+}
+
+#seccion {
+    background-color: rgb(246, 241, 197);
+    padding: 20px;
+    padding-top: 20px;
+    margin: 10px 10px 10px auto;
+    text-align: center;
+    padding-left: 20px 20px;
+    animation: titulo 3s ;
+    border-radius: 30px;
+}
